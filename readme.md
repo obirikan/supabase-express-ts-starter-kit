@@ -10,7 +10,6 @@ This project is a TypeScript-based Express.js backend starter template designed 
 - **Dynamic Route Registration**: Easily add new resources and endpoints.
 - **Custom Middleware**: Includes authentication and error handling.
 - **Service Layer**: Business logic separated from controllers.
-- **Ready for Multi-Tenancy**: Structure supports multi-tenant patterns.
 
 ## Project Structure
 
