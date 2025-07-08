@@ -30,8 +30,8 @@ app/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/multitenant-saas-backend.git
-   cd multitenant-saas-backend
+   git clone https://github.com/obirikan/supabase-express-ts-starter-kit.git
+   cd supabase-express-ts-starter-kit
    ```
 
 2. **Install dependencies:**
