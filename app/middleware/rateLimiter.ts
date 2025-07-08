@@ -1,5 +1,5 @@
 import { RateLimiterMemory } from "rate-limiter-flexible";
-import { Request, Response, NextFunction } from "express";
+import { RateLimitNextFunction, RateLimitRequest, RateLimitResponse } from "../types";
 
 const opts = {
   points: 8, 
@@ -7,14 +7,6 @@ const opts = {
 };
 
 const rateLimiter = new RateLimiterMemory(opts);
-
-interface RateLimitRequest extends Request {
-    ip: string;
-}
-
-interface RateLimitResponse extends Response {}
-
-type RateLimitNextFunction = NextFunction;
 
 export const rateLimitMiddleware = async (
     req: RateLimitRequest,

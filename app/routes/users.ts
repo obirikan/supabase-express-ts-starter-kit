@@ -8,6 +8,6 @@ export const userRoutes: RouteDefinition[] = [
     route: "/users",
     controller: UsersController,
     action: "getUsers",
-    // middlewares: [authMiddleware] // optional
+    // middlewares: [authMiddleware] // not required
   },
 ];

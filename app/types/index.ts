@@ -19,3 +19,13 @@ declare global {
     }
   }
 }
+
+
+export interface RateLimitRequest extends Request {
+    ip: string;
+}
+
+
+export interface RateLimitResponse extends Response {}
+
+export type RateLimitNextFunction = NextFunction;
